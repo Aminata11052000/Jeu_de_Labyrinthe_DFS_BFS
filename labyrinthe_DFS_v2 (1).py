@@ -163,7 +163,7 @@ while running:
                     0 <= new_row < ROWS
                     and 0 <= new_col < COLS
                     and labyrinthe[new_row][new_col] == 0
-                    and (new_row != 0 or new_col != 1)  # Ne pas bloquer le départ
+                    and (new_row != 0 or new_col != 1) 
                     and (new_row != ROWS - 1 or new_col != COLS - 1)  # Ne pas bloquer la sortie 
                 ):
                     position_element = [new_row, new_col]
